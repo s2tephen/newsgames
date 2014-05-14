@@ -6,7 +6,7 @@ categories: introduction
 ---
 
 In *[Newsgames: Journalism at Play](http://www.amazon.com/Newsgames-Journalism-Play-Ian-Bogost/dp/0262014874)* (more or less *the* book on the subject — you can read [an excerpt over at *The Atlantic*](http://www.theatlantic.com/technology/archive/2010/09/book-excerpt-can-videogames-be-journalism/62663/)), authors Bogost, Ferrari, and Schweizer generically define newsgames as "a term that names a broad body of work produced at the intersection of videogames and journalism." In the book, they go on to detail the various subgenres that have emerged in the field of newsgames:
-![The newsie on the cover of Newsgames.](/assets/img/newsie.png){: .inline .right }
+![The newsie on the cover of Newsgames.](/newsgames/assets/img/newsie.png){: .inline .right }
 
 * current event games, e.g. [*Layoff*](http://www.tiltfactor.org/play-layoff/) or [*Endgame: Syria*](http://gamethenews.net/wp-content/games/endgamesyria/)
 * infographic games, e.g. [*Budget Hero*](http://www.marketplace.org/topics/economy/budget-hero) or "playable infographics"
