@@ -5,20 +5,17 @@ date:   2014-05-14 01:00:00
 categories: introduction
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+We now have a working definition of games (and therefore, a working definition of *news*games, i.e. games about the *news*), but why should journalists even make newsgames? The high barrier to entry (both skill-wise and resource-wise) seems to suggest that newsgames are not a worthwhile investment, especially considering this [2011 report from the Knight Foundation](https://knight.app.box.com/shared/qhakjh6q4vefy8jvfzcv) on newsgames-related projects funded via the Knight News Challenge: "In terms of usage, none of the games have had significant reach."
 
-Jekyll also offers powerful support for code snippets:
+But just because we haven't had any breakout successes (quizzes notwithstanding) doesn't mean that games aren't worth exploring. The authors of *Newsgames* emphasize that "there is nothing medium-specific about journalism, no reason that its output must take the familiar form of text, image, or video." If we look at the specific affordances of games, it becomes clear — as Bogost, Ferrari, and Schweizer contend — "videogames can do good journalism, both as an independent medium for news and as a supplement to traditional... coverage."
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In Bogost's view, what distinguishes a game from any other medium is the concept of *procedural rhetoric*, the way in which "games simulate how things work by constructing models that people can interact with." This brings us back to our proposed definition of games — specifically, the interactions between rules and outcomes. By bringing the player into that system of interactions, they can now tangibly see how all the working parts fit together. In terms of reporting the news, that's a really powerful idea.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+<iframe src="//player.vimeo.com/video/61297159" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+</iframe>
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Here's *ProPublica*'s Sisi Wei giving a call to action in the form of a [lightning talk at NICAR '13](http://sisiwei.com/nicar-news-games/#/), emphasizing three key aspects of newsgames: fun ([here's another presentation on it](http://sisiwei.com/nicar-making-interactive-fun/)), replayability, and context. She's even made some newsgames of her own, like [*HeartSaver*](https://projects.propublica.org/graphics/heartsaver), a game about heart attacks and hospitals in New York. Given all the excitement around news applications and interactive features, the newsgame simply seems like the next logical step. This past NICAR, Sisi even ran a workshop on how to make a quick newsgame in [Twine](http://twinery.org/), an open-source tool for creating hypertext stories.
+
+In the world of indie games, Twine has become the go-to tool for an emerging breed of game designers — a group that developer Anna Anthropy calls *videogame zinesters*. Thanks to increasing access to game creation software, people once ignored by the AAA games industry have taken to creating "personal games," forming a counterpublic of expressive narratives told through videogames. In [*Rise of the Videogame Zinesters*](http://www.amazon.com/Rise-Videogame-Zinesters-Drop-outs-Housewives/dp/1609803728), Anthropy writes: "Games tell stories that communicate the values of their creators in a unique way: not just through their explicit content but through the logic of their design, and the systems they choose to model."
+
+Formulated in another way: by expressing certain systems and personal experiences via their design, games can build empathy. Games often ask their players to assume another role, embody an avatar in another world. Empathy plays a huge role in games like [*Cart Life*](http://www.richardhofmeier.com/cartlife/) — in which you struggle to make ends meet as a street vendor — and [*Depression Quest*](http://www.depressionquest.com) — where the experience of depression is communicated in the form of a choose-your-own-adventure where choices are crossed out. Conveying the stories of other people is something that journalism has strived to do, and games provide one way of achieving that. 

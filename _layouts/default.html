@@ -13,12 +13,16 @@
     <body>
       <section>
         <header>
-          <img class="logo" src="{{ site.baseurl }}/assets/img/logo.svg">
-          <h1>The Newsgame Design Toolkit</h1>
+          <a href="{{ site.baseurl }}/">
+            <img class="logo" src="{{ site.baseurl }}/assets/img/logo.svg">
+            <h1>The Newsgame Design Toolkit</h1>
+          </a>
           <span class="tagline">a game design methodology for the newsroom</span>
         </header>
 
-        <img src="{{ site.baseurl }}/assets/img/main.png" class="hero">
+        {% if page.id == 'home' %}
+          <img src="{{ site.baseurl }}/assets/img/main.png" class="hero">
+        {% endif %}
 
         <article>
           {{ content }}
@@ -31,11 +35,27 @@
               {% if forloop.first %}
               {% else %}
                 {% for post in posts reversed %}
-                  <a href="{{ post.url }}">{{ post.title }}</a><br>
+                  {% if post.title == page.title %}
+                    <a class="active" href="{{ post.url }}">{{ post.title }}</a><br>
+                  {% else %}
+                    <a href="{{ post.url }}">{{ post.title }}</a><br>
+                  {% endif %}
                 {% endfor %}
               {% endif %}
             {% endfor %}
             {% if forloop.last %}
+              <hr>
+              <h3>Methodology</h3>
+              Coming soon...
+              <hr>
+              <h3>Case Studies</h3>
+              Coming soon...
+              <hr>
+              <h3>Resources</h3>
+              <a href="http://www.bayreporta.com/newsgame-directory/">Newsgame Directory</a><br>
+              <a href="http://newsgameshack.thegoodevil.com/">Idea Randomator</a><br>
+              <a href="http://html5gameengine.com/">HTML5 Game Engines</a><br>
+              <a href="http://http://twinery.org/">Twine</a> | <a href="http://aliendovecote.com/resources/twine-snippets/">Twine Resources</a>
             {% else %}
               <hr>
             {% endif %}

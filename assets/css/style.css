@@ -20,7 +20,8 @@ body {
 a {
   text-decoration: none;
   color: #F38630;
-  border-bottom: 1px dotted #ccc; }
+  border-bottom: 1px dotted #ccc;
+  transition: color 0.3s ease; }
   a:hover {
     color: #000; }
 
@@ -47,6 +48,8 @@ section {
 header {
   margin-top: 20px;
   margin-bottom: 20px; }
+  header a {
+    border-bottom: 0; }
   header .logo {
     width: 120px;
     height: 36px;
@@ -63,10 +66,10 @@ header {
     margin-top: 5px; }
 
 .hero {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 20px; }
 
 article {
-  margin-top: 20px;
   *zoom: 1;
   float: left;
   display: inline;
@@ -84,9 +87,49 @@ article {
     clear: both; }
   article:last-child {
     margin-right: 0%; }
+  article h2 {
+    margin-top: 0; }
+  article img.inline.right {
+    float: right; }
+  article iframe {
+    width: 100%;
+    border: 0;
+    margin-bottom: 20px; }
+  article .navigation {
+    border-top: 1px solid #ccc;
+    padding-top: 20px; }
+  article a.navbutton {
+    *zoom: 1;
+    float: left;
+    display: inline;
+    clear: none;
+    text-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+    font-weight: 700;
+    border-bottom: 0;
+    color: #000; }
+    article a.navbutton:before, article a.navbutton:after {
+      content: '';
+      display: table; }
+    article a.navbutton:after {
+      clear: both; }
+    article a.navbutton:last-child {
+      margin-right: 0%; }
+    article a.navbutton:hover h2 {
+      color: #000; }
+    article a.navbutton.next {
+      text-align: right; }
+    article a.navbutton h2 {
+      transition: color 0.3s ease;
+      color: #F38630;
+      font-weight: 400;
+      margin-bottom: 0; }
 
 aside {
-  margin-top: 20px;
   *zoom: 1;
   float: left;
   display: inline;
@@ -112,6 +155,10 @@ aside {
     font-weight: 900; }
   aside a {
     border-bottom: 0; }
+    aside a.active {
+      color: #666; }
+      aside a.active:hover {
+        cursor: none; }
 
 footer {
   background-color: #333;

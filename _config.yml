@@ -1,3 +1,5 @@
 name: The Newsgame Design Toolkit
 exclude: ["vendor", "Rakefile", "Gemfile", "Gemfile.lock"]
 baseurl: /newsgames
+permalink: /:categories/:title/
+markdown: kramdown
