@@ -9,6 +9,16 @@ body {
 
 a {
   text-decoration: none;
+  color: #F38630;
+  border-bottom: 1px dotted #ccc;
+  &:hover {
+    color: #000;
+  }
+}
+
+p {
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 section {
@@ -42,11 +52,23 @@ header {
 }
 
 article {
+  margin-top: 20px;
   @include column(3/4);
 }
 
 aside {
+  margin-top: 20px;
   @include column(1/4);
+  font-size: 1.2em;
+  h3 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 0.5em;
+    font-weight: 900;
+  }
+  a {
+    border-bottom: 0;
+  }
 }
 
 footer {
@@ -68,12 +90,8 @@ footer {
         color: #999;
         font-size: 0.8em;
         margin-top: 0;
-        a {
-          color: #F38630;
-          border-bottom: 1px dotted #ccc;
-          &:hover {
-            color: #fff;
-          } 
+        a:hover {
+          color: #fff; 
         }
       }
     }

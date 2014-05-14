@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-05-14 01:13:50
+title:  "Defining Newsgames"
+date:   2014-05-14 00:00:00
 categories: introduction
 ---
 

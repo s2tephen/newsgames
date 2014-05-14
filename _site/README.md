@@ -1,4 +1,4 @@
 newsgames
 =========
 
-The Newsgames Design Toolkit
+The Newsgame Design Toolkit

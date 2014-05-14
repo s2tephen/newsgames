@@ -18,7 +18,15 @@ body {
   border-top: 20px solid #F38630; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #F38630;
+  border-bottom: 1px dotted #ccc; }
+  a:hover {
+    color: #000; }
+
+p {
+  margin-bottom: 20px;
+  margin-top: 0; }
 
 section {
   *zoom: 1;
@@ -58,6 +66,7 @@ header {
   width: 100%; }
 
 article {
+  margin-top: 20px;
   *zoom: 1;
   float: left;
   display: inline;
@@ -77,6 +86,7 @@ article {
     margin-right: 0%; }
 
 aside {
+  margin-top: 20px;
   *zoom: 1;
   float: left;
   display: inline;
@@ -86,7 +96,8 @@ aside {
   padding-right: 0;
   width: 22.75%;
   margin-left: 0%;
-  margin-right: 3%; }
+  margin-right: 3%;
+  font-size: 1.2em; }
   aside:before, aside:after {
     content: '';
     display: table; }
@@ -94,6 +105,13 @@ aside {
     clear: both; }
   aside:last-child {
     margin-right: 0%; }
+  aside h3 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 0.5em;
+    font-weight: 900; }
+  aside a {
+    border-bottom: 0; }
 
 footer {
   background-color: #333;
@@ -142,8 +160,5 @@ footer {
         color: #999;
         font-size: 0.8em;
         margin-top: 0; }
-        footer .footer-wrap div p a {
-          color: #F38630;
-          border-bottom: 1px dotted #ccc; }
-          footer .footer-wrap div p a:hover {
-            color: #fff; }
+        footer .footer-wrap div p a:hover {
+          color: #fff; }
