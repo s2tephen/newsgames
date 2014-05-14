@@ -1,0 +1,81 @@
+@import 'jeet/index';
+
+body {
+  font-family: "Brandon Grotesque";
+  background-color: #F0F0F0;
+  margin: 0;
+  border-top: 20px solid #F38630;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  @include center(960px);
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .logo {
+    width: 120px;
+    height: 36px;
+    vertical-align: bottom;
+  }
+  h1 {
+    display: inline;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #666;
+  }
+  .tagline {
+    float: right;
+    font-style: italic;
+    margin-top: 5px;
+  }
+}
+
+.hero {
+  width: 100%;
+}
+
+article {
+  @include column(3/4);
+}
+
+aside {
+  @include column(1/4);
+}
+
+footer {
+  background-color: #333;
+  height: 180px;
+  margin-top: 20px;
+  .footer-wrap {
+    @include center(960px);
+    div {
+      padding-top: 20px;
+      @include column(1/3);
+      h3 {
+        color: #F38630;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        margin-bottom: 0;
+      }
+      p {
+        color: #999;
+        font-size: 0.8em;
+        margin-top: 0;
+        a {
+          color: #F38630;
+          border-bottom: 1px dotted #ccc;
+          &:hover {
+            color: #fff;
+          } 
+        }
+      }
+    }
+  }
+}

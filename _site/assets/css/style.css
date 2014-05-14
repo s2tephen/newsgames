@@ -1,0 +1,149 @@
+/*  Syntax Quick Reference
+  --------------------------
+  column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
+  span($ratio: 1, $offset: 0)
+  shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter)
+  unshift()
+  edit()
+  center($max_width: 1410px, $pad: 0)
+  stack($pad: 0, $align: false)
+  unstack()
+  align($direction: both)
+  cf()
+*/
+body {
+  font-family: "Brandon Grotesque";
+  background-color: #F0F0F0;
+  margin: 0;
+  border-top: 20px solid #F38630; }
+
+a {
+  text-decoration: none; }
+
+section {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+  section:before, section:after {
+    content: '';
+    display: table; }
+  section:after {
+    clear: both; }
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  header .logo {
+    width: 120px;
+    height: 36px;
+    vertical-align: bottom; }
+  header h1 {
+    display: inline;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #666; }
+  header .tagline {
+    float: right;
+    font-style: italic;
+    margin-top: 5px; }
+
+.hero {
+  width: 100%; }
+
+article {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 74.25%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  article:before, article:after {
+    content: '';
+    display: table; }
+  article:after {
+    clear: both; }
+  article:last-child {
+    margin-right: 0%; }
+
+aside {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  aside:before, aside:after {
+    content: '';
+    display: table; }
+  aside:after {
+    clear: both; }
+  aside:last-child {
+    margin-right: 0%; }
+
+footer {
+  background-color: #333;
+  height: 180px;
+  margin-top: 20px; }
+  footer .footer-wrap {
+    *zoom: 1;
+    width: auto;
+    max-width: 960px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0; }
+    footer .footer-wrap:before, footer .footer-wrap:after {
+      content: '';
+      display: table; }
+    footer .footer-wrap:after {
+      clear: both; }
+    footer .footer-wrap div {
+      padding-top: 20px;
+      *zoom: 1;
+      float: left;
+      display: inline;
+      clear: none;
+      text-align: inherit;
+      padding-left: 0;
+      padding-right: 0;
+      width: 31.33333%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      footer .footer-wrap div:before, footer .footer-wrap div:after {
+        content: '';
+        display: table; }
+      footer .footer-wrap div:after {
+        clear: both; }
+      footer .footer-wrap div:last-child {
+        margin-right: 0%; }
+      footer .footer-wrap div h3 {
+        color: #F38630;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        margin-bottom: 0; }
+      footer .footer-wrap div p {
+        color: #999;
+        font-size: 0.8em;
+        margin-top: 0; }
+        footer .footer-wrap div p a {
+          color: #F38630;
+          border-bottom: 1px dotted #ccc; }
+          footer .footer-wrap div p a:hover {
+            color: #fff; }
