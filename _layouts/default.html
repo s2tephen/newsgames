@@ -36,9 +36,9 @@
               {% else %}
                 {% for post in posts reversed %}
                   {% if post.title == page.title %}
-                    <a class="active" href="{{ post.url }}">{{ post.title }}</a><br>
+                    <a class="active" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
                   {% else %}
-                    <a href="{{ post.url }}">{{ post.title }}</a><br>
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
                   {% endif %}
                 {% endfor %}
               {% endif %}
