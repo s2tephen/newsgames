@@ -11,8 +11,19 @@
   align($direction: both)
   cf()
 */
+@font-face {
+  font-family: "Woodford Bourne";
+  src: url("../fonts/woodfordbourne-regular-webfont.woff2") format("woff2"), url("../fonts/woodfordbourne-regular-webfont.woff") format("woff"); }
+@font-face {
+  font-family: "Woodford Bourne";
+  font-weight: 700;
+  src: url("../fonts/woodfordbourne-bold-webfont.woff2") format("woff2"), url("../fonts/woodfordbourne-bold-webfont.woff") format("woff"); }
+@font-face {
+  font-family: "Woodford Bourne";
+  font-style: italic;
+  src: url("../fonts/woodfordbourne-italic-webfont.woff2") format("woff2"), url("../fonts/woodfordbourne-italic-webfont.woff") format("woff"); }
 body {
-  font-family: "Brandon Grotesque", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Woodford Bourne", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   background-color: #F0F0F0;
   margin: 0;
   border-top: 20px solid #F38630; }
@@ -27,7 +38,8 @@ a {
 
 p {
   margin-bottom: 20px;
-  margin-top: 0; }
+  margin-top: 0;
+  line-height: 1.5; }
 
 section {
   *zoom: 1;
@@ -58,12 +70,12 @@ header {
     display: inline;
     margin-left: 20px;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
     color: #666; }
   header .tagline {
     float: right;
     font-style: italic;
-    margin-top: 5px; }
+    margin-top: 8px; }
 
 .hero {
   width: 100%;
@@ -152,7 +164,7 @@ aside {
     text-transform: uppercase;
     margin: 0;
     font-size: 0.5em;
-    font-weight: 900; }
+    font-weight: 700; }
   aside a {
     border-bottom: 0; }
     aside a.active {
@@ -209,3 +221,5 @@ footer {
         margin-top: 0; }
         footer .footer-wrap div p a:hover {
           color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
